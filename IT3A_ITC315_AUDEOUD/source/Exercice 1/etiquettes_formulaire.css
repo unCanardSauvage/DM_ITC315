@@ -1,0 +1,21 @@
+h1 {font-size: 18pt;} /*taille de police*/
+
+
+/*on regarde si la largeur est plus petite ou plus grande que 480px*/
+@media screen and ( max-width: 480px ) {
+	label { 
+	width: 100px; /*taille largeur*/
+	text-align: right; /*aligner le texte à droite*/
+	display: block; /*permet de faire des blocs*/
+	vertical-align: baseline /*aligne verticalement par rapport aux blocs à côté*/
+	}
+}
+
+@media screen and ( min-width: 481px ) {
+	label { 
+	width: 100px; /*taille largeur*/
+	text-align: right; /*aligner le texte à droite*/
+	display: inline-block; /*permet d'aligner les blocs*/
+	vertical-align: baseline /*aligne verticalement par rapport aux blocs à côté*/
+	}
+}
